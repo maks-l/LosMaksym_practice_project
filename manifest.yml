@@ -1,0 +1,4 @@
+applications:
+  - name: mysite
+    buildpack: https://github.com/cloudfoundry/python-buildpack
+    command: python3 main.py
